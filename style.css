@@ -1,0 +1,128 @@
+body {
+  background-image: url("images/beach1.jpg");
+  background-size: 1300px;
+  color: #eca400;
+  font-family: helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 2;
+  text-align: center;
+}
+
+h2 {
+  color: #e8f1f2;
+  font-family: helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  color: #e8f1f2;
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h4 {
+  color: #27476e;
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  color: #e8f1f2;
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.6;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  border-radius: 150px;
+  border: 5px solid #006992;
+}
+
+li {
+  font-size: 16px;
+  align-self: center;
+}
+
+a {
+  color: #e8f1f2;
+  font-size: 16px;
+  font-family: roboto, sans-serif;
+  align-self: center;
+  text-decoration: none;
+}
+
+i{
+  padding: 10px 10px;
+  color: #001d4a;
+  size: 40px;
+}
+.btn-blue {
+  background-color: #eca400;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 20px;
+  width: 300px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.container_1 {
+  background: #006992;
+  padding: 20px;
+  width: 600px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.card {
+ margin: 0 auto;
+}
+
+.container_2 {
+  background: none;
+  padding: 10px;
+  width: 700px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
